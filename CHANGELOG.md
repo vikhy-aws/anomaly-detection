@@ -10,6 +10,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 ### Enhancements
 ### Bug Fixes
 - Keep PPL direct query transport serialization compatible with current SQL plugin request format ([#1756](https://github.com/opensearch-project/anomaly-detection/pull/1756))
+- Prevent historical high-cardinality analyses from remaining stuck in `RUNNING` after task-slot scale-down and support nullable absolute-threshold rule operators during remote dispatch ([#1782](https://github.com/opensearch-project/anomaly-detection/pull/1782))
 ### Infrastructure
 ### Documentation
 ### Maintenance
